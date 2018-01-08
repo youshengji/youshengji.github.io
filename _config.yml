@@ -1,2 +1,27 @@
-name: Yousheng Ji
-markdown: kramdown
+# Site settings
+title:          youshengji
+description:    "Yousheng Ji's Blogs"
+baseurl:        "/"
+url:            "https://youshengji.github.io"
+
+# Author
+author:
+  name:         Yousheng Ji
+  url:          https://youshengji.github.io/about
+  email:        jasonyoushengji@gmail.com
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
