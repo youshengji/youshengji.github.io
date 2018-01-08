@@ -1,2 +1,1 @@
-# youshengji.github.io
-personal site
+https://youshengji.github.io
